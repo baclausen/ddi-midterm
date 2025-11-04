@@ -2,20 +2,20 @@
 ![alt text](images/video_piracy1.png)
 
 ## Table of Contents
-### 1. Project Overview
-### 2. Exploratory Focuses
-### 3. Cleaning
-### 4. Visual Aides
-### 5. Conclusion
-### 6. Sources
+1. **Project Overview**
+2. **Exploratory Focuses**
+3. **Cleaning**
+4. **Visual Aides**
+5. **Conclusion**
+6. **Sources**
 
 ## Overview
 
 ### Exploratory Focuses
-#### 1. Which content had the highest views/downloads?
-#### 2. What was the average amount of time for a video to be posted?
-#### 3. Which directors' work is pirated the most?
-#### 4. What correlations exist between the amount of time a file is posted, the number of downloads, download rate, and IMDb rating?
+1. Which content had the highest views/downloads?
+2. What was the average amount of time for a video to be posted?
+3. Which directors' work is pirated the most?
+4. What correlations exist between the amount of time a file is posted, the number of downloads, download rate, and IMDb rating?
 
 ## Cleaning
 #### The original dataset contained a lot of poorly formatted data. Nearly all values, to include dates, counts of views/downloads, runtimes were stored as strings with inconsistent formats.
