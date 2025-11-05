@@ -174,6 +174,7 @@ def total_clean(df):
     step_9 = avg_value(step_8)
     step_9['run_time'] = step_9['run_time'].astype(int)
     step10 = polish_dataframe(step_9)
+    step10.to_csv('../data/cleaned_pirated_video.csv', index=False)
     return step10
 
 
