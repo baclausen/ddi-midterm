@@ -83,7 +83,16 @@ def date_formatting(dataframe, release_date, posted_date):
     return dataframe
 
 
-# STEP 6.APPLY-----------------------------------------------------------------------
+# STEP 7-----------------------------------------------------------------------
+
+def deduper(dataframe):
+    '''Compares the title, director, and release date for duplicate values and keeps only the instance with the highest download rate'''
+    
+    grouped_df = dataframe.groupby(['title', 'director', 'release_date'])
+    filtered_grp = dataframe.loc[grouped_df['download_rate'].idxmax()]
+    return filtered_grp
+
+# STEP 7.APPLY-----------------------------------------------------------------------
 
 def standard_run_time(run_time):
     '''Convert run time strings in various formats to integer values representing total minutes'''
@@ -109,7 +118,7 @@ def standard_run_time(run_time):
     return total_minutes
 
 
-# STEP 7-----------------------------------------------------------------------
+# STEP 8-----------------------------------------------------------------------
 
 def avg_value(dataframe):
     '''Fills empty numeric rows with the average completed rows'''
@@ -120,7 +129,7 @@ def avg_value(dataframe):
     return dataframe
 
 
-# STEP 8-----------------------------------------------------------------------
+# STEP 9-----------------------------------------------------------------------
 
 def days_before_posted(dataframe):
     '''Calculates the time between the release and posted dates'''
@@ -129,7 +138,7 @@ def days_before_posted(dataframe):
     return dataframe
 
 
-# STEP 9-----------------------------------------------------------------------
+# STEP 10----------------------------------------------------------------------
 
 def polish_dataframe(dataframe):
     '''Organizes the columns in a logical manner for the user to observe and interpret, then sorts the movie data by release date'''
@@ -147,6 +156,7 @@ def modern_age_movies(dataframe):
     modern_movies = dataframe[dataframe['release_date'] >= '1993-06-24']
     return modern_movies
 
+
 # EVERYTHING, EVERYWHERE, ALL AT ONCE------------------------------------------
 
 def total_clean(df):
@@ -158,12 +168,13 @@ def total_clean(df):
     step_4 = str_to_int(step_3)
     step_5 = download_rate(step_4)
     step_6 = date_formatting(step_5, 'release_date', 'posted_date')
-    step_7 = days_before_posted(step_6)
-    step_7['run_time'] = step_7['run_time'].apply(standard_run_time)
-    step_8 = avg_value(step_7)
-    step_8['run_time'] = step_8['run_time'].astype(int)
-    step_9 = polish_dataframe(step_8)
-    return step_9
+    step_7 = deduper(step_6)
+    step_8 = days_before_posted(step_7)
+    step_8['run_time'] = step_8['run_time'].apply(standard_run_time)
+    step_9 = avg_value(step_8)
+    step_9['run_time'] = step_9['run_time'].astype(int)
+    step10 = polish_dataframe(step_9)
+    return step10
 
 
 # TESTING AREA-----------------------------------------------------------------

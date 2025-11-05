@@ -31,19 +31,22 @@ The original dataset contained a lot of poorly formatted data. Nearly all values
 3. **Formatting**
    Numbers were converted from strings, dates were converted and given a uniform format, and uniform runtimes were derived from several varying formats.
 
-4. **Filling the blanks**
+4. **Removing Duplicates**
+   Once everything was formatted nicely I removed duplicates by grouping on the *title, director, and release date* to ensure I wasn't removing an entry unnecessarily if different movies share the same name. I kept the instance with the highest download rate (duplicates are likely the result of several different uploads of the same movie).
+
+5. **Filling the blanks**
    Columns with string variables were provided an instance of 'Not available' for null values. Missing numeric data was filled using the mean value of the available numeric values.
 
-5. **Additional Engineering**
+6. **Additional Engineering**
    New columns performing useful calculations were added before the entirety of the data was organized logically and sorted. Additional filters functions were created for analysis.
 
 ## Visualization of Data
 *insert charts*
+heatmap of numeric data
 
 ## Conclusion
 *insert findings*
 
 ## Sources
-1. **Data set**
 The original data was sourced from Kaggle and uploaded by user Arsalan ur Rehman.
-The image in the header can be located at www.freepik.com
+The image in the header is AI generated from Google Gemini
