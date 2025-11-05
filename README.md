@@ -41,18 +41,18 @@ The original dataset contained a lot of poorly formatted data. Nearly all values
    New columns performing useful calculations were added before the entirety of the data was organized logically and sorted. Additional filters functions were created for analysis.
 
 ## Visualization of Data
-![alt text](images/heatmap.png)
+![alt text](images/heatmap.png) <br>
 A direct correlation with sheer number of downloads compared to views is apparent as a view must occur to initiate a download.
 I was surprised the correlation between the download rate and IMDb rating was not stronger, as popular content would logically have a higher rate for piracy.
 I had also anticipated a stronger relationship between the days between release/upload and the download rate to be higher. The concept of content available for piracy close to the release date being popular seems likely, but this could be skewed by data included before sites became mainstream.
 
-![alt text](images/views_vs_downloads_scatter.png)
+![alt text](images/views_vs_downloads_scatter.png) <br>
 Representation of the observation above showing a very strong logical connection between views and downloads.
 
-![alt text](images/dl_rate_vs_days_to_upload.png)
+![alt text](images/dl_rate_vs_days_to_upload.png) <br>
 The information to glean from this graph lies heavily on the right side - we see that higher download percentages do, in fact, correspond to fast uploading in many cases. The cluster in the middle likely represents content created before the popularity of digital piracy.
 
-![alt text](images/release_vs_upload_hist.png)
+![alt text](images/release_vs_upload_hist.png) <br>
 This overlay shows a surge in content available on the pirating site which indicates a huge uptick in adoption of illegal downloading. Aside from sheer volume, this is apparent when noting the number of videos posted surpassed US production, indicating that purveyors of pirated content were able to not onl keep pace with Hollywood, but access or digitize content from previous years.
 
 ## Conclusion
