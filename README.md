@@ -1,4 +1,3 @@
-# Digital $$\{\color{red}\text{Piracy}\}$$ of US Content
 ![alt text](images/video_piracy1.png)
 
 ## Table of Contents
