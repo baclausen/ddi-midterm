@@ -1,13 +1,13 @@
-# Digital Piracy of US Content
+# Digital $$\{\color{red}\text{Piracy}\}$$ of US Content
 ![alt text](images/video_piracy1.png)
 
 ## Table of Contents
-1. **Project Overview**
-2. **Exploratory Focuses**
-3. **Cleaning**
-4. **Visual Aides**
-5. **Conclusion**
-6. **Sources**
+1. [**Project Overview**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#overview)
+2. [**Exploratory Focuses**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#exploratory-focuses)
+3. [**Cleaning**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#cleaning)
+4. [**Visual Aides**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#visualization-of-data)
+5. [**Conclusion**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#conclusion)
+6. [**Sources**](https://github.com/baclausen/ddi-midterm?tab=readme-ov-file#sources)
 
 ## Overview
 Digital piracy in the United States is a persistent and costly issue, primarily impacting the film, TV, and music sectors. It costs the U.S. economy billions of dollars annually in lost revenue and contributes to substantial job losses, with illegal streaming now the dominant method of infringement. Despite the availability of numerous legal streaming platforms, high costs and content fragmentation are cited as reasons, particularly by younger consumers, who continue to drive unauthorized content consumption. The fight against piracy focuses on reinforcing intellectual property protections and coordinated global enforcement efforts.
