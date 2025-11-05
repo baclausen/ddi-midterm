@@ -2,8 +2,6 @@
 import numpy as np
 import pandas as pd
 import midterm_functions as mf
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 '''Change the working directory to the src folder, if needed'''
 

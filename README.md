@@ -14,9 +14,7 @@ Digital piracy in the United States is a persistent and costly issue, primarily 
 This exploratory data analysis observes trends and/correlations in pirated video files to identify what categories of video content are the most susceptible.
 
 ## Exploratory Focuses
-- Which content had the highest views/downloads?
-- What was the average amount of time for a video to be posted?
-- Which directors' work is pirated the most?
+- How has piracy grown since inception?
 - What correlations exist between the amount of time a file is posted, the number of downloads, download rate, and IMDb rating?
 
 ## Cleaning
